@@ -46,4 +46,4 @@ if ingredients_list:
         st.success('Your Smoothie is ordered ' + order_name + '!', icon="✅")
 
 
-sf_df = st.dataframe(smoothiefroot_respone, use_container_width = True)
+sf_df = st.dataframe(smoothiefroot_respone.json(), use_container_width = True)
