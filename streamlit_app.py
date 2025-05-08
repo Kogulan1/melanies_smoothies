@@ -10,7 +10,7 @@ st.write(
 )
 
 # Get the current credentials
-cnx = st.conncetion("snowflake")
+cnx = st.connection("snowflake")
 session = cnx.session()
 
 order_name = st.text_input("Order name", "Life of Brian")
